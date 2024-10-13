@@ -1,0 +1,56 @@
+body, h1, h2, p, .intro h1, .info h1 {
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+}
+
+/* Main container for text and image */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1400px;
+    padding-top: 50px;
+    margin-left: 13%; 
+}
+
+/* Left side (text) */
+.text-container {
+    flex: 1;
+    margin-right: 70px; 
+    width: 65%; 
+}
+
+/* Intro text styling */
+.intro h1 {
+    font-weight: 500;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 180px;
+    width: 100%; 
+    line-height: 1.2;
+    color: #001f3f;
+}
+
+/* Additional info text styling */
+.info h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 100%;
+    white-space: normal;
+    line-height: 1.5; 
+    color: #001f3f;
+}
+
+/* Right side (image) */
+.image-container {
+    flex-shrink: 0;
+}
+
+/* Image styling */
+.image-right {
+    width: 450px;
+    height: 562.5px;
+    object-fit: cover;
+    margin-top: 70px;
+    margin-right: 80px;
+}

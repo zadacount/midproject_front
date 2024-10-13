@@ -1,0 +1,44 @@
+body, h1, h2, p, .parent, .sibling, .me {
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+}
+
+/* Family Schema */
+.family-schema {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.parent,
+.sibling,
+.me {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #001f3f;
+}
+
+.circle-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.siblings {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: bolder;
+}

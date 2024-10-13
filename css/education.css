@@ -1,0 +1,200 @@
+body, h1, h2, p, .skills-experience h2, .languages h2, .skill p, .language p {
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Student Life Section */
+.student-life {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Circular images */
+.circle-img {
+    border-radius: 50%;
+    border: 3px solid #eee;
+    position: absolute;
+}
+
+.circle-img.big {
+    width: 250px;
+    height: 250px;
+    top: 200px;
+    left: 250px;
+}
+
+.circle-img.smaller {
+    width: 200px;
+    height: 200px;
+    top: 370px;
+    left: 480px;
+}
+
+.circle-img.small {
+    width: 170px;
+    height: 170px;
+    top: 480px;
+    left: 320px;
+}
+
+.right-side {
+    flex: 2;
+    padding-left: 50px;
+    color: #001f3f;
+}
+
+.right-side h2 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+
+.right-side p {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-left: 200px;
+}
+
+/* Skills and Experience Section */
+.skills-experience {
+    margin-top: 80px;
+    margin-bottom: 20px; /* Отступ перед секцией "Languages" */
+    margin-left: 250px;
+}
+
+.skills-experience h2 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #001f3f;
+}
+
+.skills {
+    margin-bottom: 20px; /* Отступ между последним навыком и текстом "Languages" */
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 300px;
+    height: 8px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.figma {
+    width: 90%;
+    background-color: #4a90e2;
+}
+
+.adobe-xd {
+    width: 80%;
+    background-color: #d0021b;
+}
+
+.illustrator {
+    width: 60%;
+    background-color: #9b51e0;
+}
+
+/* Отступ между секциями */
+.spacer {
+    height: 20px;
+}
+
+/* Languages Section */
+.languages {
+    margin-bottom: 200px;
+    margin-left: 250px;
+}
+
+.languages h2 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 20px; /* Отступ перед заголовком "Languages" */
+    margin-bottom: 20px;
+    color: #001f3f;
+}
+
+.language {
+    margin-bottom: 10px;
+}
+
+.language p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.languages .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 300px;
+    height: 8px;
+    overflow: hidden;
+}
+
+.languages .progress {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.kazakh {
+    width: 100%;
+    background-color: #4a90e2;
+}
+
+.russian {
+    width: 90%;
+    background-color: #d0021b;
+}
+
+.english {
+    width: 80%;
+    background-color: #9b51e0;
+}
+
+.turkish {
+    width: 60%;
+    background-color: #e08a43;
+}
+
+/* Image in the right side */
+.image-right {
+    float: right;
+    width: 700px; /* Ширина изображения */
+    margin-top: -700px;
+    margin-right: 200px;
+}
